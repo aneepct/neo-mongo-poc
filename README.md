@@ -1,7 +1,5 @@
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
-
 # test-for-moneo
-This project demonstrates on how you can implement the [moneo plugin / middleware](https://github.com/srfrnk/moneo/) for Mongoose to Neo4j.
+This project demonstrates on how you can implement the Mongoose to Neo4j.
 
 The project file structure
 * [`bin/www`](bin/www) - variable declarations for the connections to mongoose and moneo [Note: oneo connection is same as neo4j. We use the localhost with post number `7474`] . Also, the port number `3000` is used in the project to know; if the server is working or not.
@@ -22,5 +20,4 @@ cd into folder `test-for-neo` then
 ##### Note
     Keep mongodb and neo4j started before running !
 ## Run
-
-    nodemon bin/www
+    npm start

@@ -19,10 +19,6 @@
   ],
   "author": "Aneep Tandel",
   "license": "MIT",
-  "bugs": {
-    "url": ""
-  },
-  "homepage": "",
   "dependencies": {
     "body-parser": "^1.14.0",
     "compression": "^1.5.2",
