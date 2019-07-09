@@ -2,14 +2,14 @@
   "name": "neo-mongo-poc",
   "version": "1.0.0",
   "description": "Mongodb to neo4j connection",
-  "main": "index.js",
+  "main": "app.js",
   "readme": "README.md",
   "scripts": {
     "start": "nodemon bin/www"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/akarsh/test-for-moneo.git"
+    "url": "https://github.com/aneepct/neo-mongo-poc.git"
   },
   "keywords": [
     "node",
@@ -33,6 +33,6 @@
     "mongoose": "^4.0.0",
     "morgan": "^1.6.1",
     "neo4j": "^2.0.0-RC1",
-    "nodemon": "^1.7.0"
+    "nodemon": "^1.19.1"
   }
 }

@@ -6,11 +6,17 @@ var mongoose = require('mongoose');
 // neo4j package
 var neo4j    = require('neo4j');
 // moneo package and neo4j connection settings
-var moneo = require("moneo")({url:'http://localhost:7474'});
+var moneo = require("moneo")({
+	url:'http://localhost:7474', 
+	auth: {
+      user: 'neo4j',
+      pass: 'aneep1234'
+    }
+});
 
 // connecting to mongodb
 // For more details refer to https://github.com/Automattic/mongoose#connecting-to-mongodb
-require('./../connection/mongofile')('mongodb://localhost/testdbmonograph', mongoose);
+require('./../connection/mongofile')('mongodb://localhost:27017/testdbmonograph', mongoose);
 require('./../connection/moneofile')(moneo, mongoose);
 
 // Go to http://localhost:3000 to check if the server is running or not

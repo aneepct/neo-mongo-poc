@@ -51,8 +51,8 @@ module.exports = function (moneo, mongoose) {
 	// running a cypherQuery for the data model
 	// this query will fetch all the nodes and return all the nodes.
 	usermodel.cypherQuery({query: 'match (n:User) return n limit 1'}, function (err, res) {
-				console.log("Result of user model "+res);
-		});
+		console.log("Result of user model "+res);
+	});
 
 	// data model is returned
 	return usermodel;
