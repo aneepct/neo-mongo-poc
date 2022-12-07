@@ -23,7 +23,7 @@
     "body-parser": "^1.14.0",
     "compression": "^1.5.2",
     "cookie-parser": "^1.4.0",
-    "express": "^4.13.3",
+    "express": "^4.17.3",
     "method-override": "^2.3.5",
     "moneo": "^1.1.2",
     "mongoose": "^4.0.0",
